@@ -33,9 +33,9 @@ public class ApiControllers {
     }
 
     @PostMapping(value = "/save")
-    public String saveTriangle(@RequestBody Triangle triangle){
+    public ResponseEntity<String> saveTriangle(@RequestBody Triangle triangle){
         triangleRepo.save(triangle);
-        return "Трикутник додано";
+        return ResponseEntity.ok("трикутник додано");
     }
 
     @PutMapping(value = "/update/{id}")
