@@ -1,7 +1,7 @@
-package org.example.lab5.Controller;
+package org.example.lab5.controller;
 
-import org.example.lab5.Models.Triangle;
-import org.example.lab5.Repo.TriangleRepo;
+import org.example.lab5.models.Triangle;
+import org.example.lab5.repo.TriangleRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

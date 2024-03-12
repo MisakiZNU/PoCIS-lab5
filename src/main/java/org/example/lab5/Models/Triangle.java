@@ -1,4 +1,4 @@
-package org.example.lab5.Models;
+package org.example.lab5.models;
 
 import jakarta.persistence.*;
 
